@@ -1,0 +1,45 @@
+body {
+  background: #f9f9f9;
+  font-family: Arial, sans-serif;
+}
+#app {
+  width: 1050px;
+  margin: 40px auto;
+}
+#toolbar {
+  margin-bottom: 10px;
+}
+#user-bar {
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+#online-users {
+  margin-left: 25px;
+  color: #2c3e50;
+  font-size: 1.1em;
+}
+canvas {
+  border: 1px solid #aaa;
+  background: #fff;
+}
+button {
+  padding: 5px 10px;
+  margin-left: 3px;
+  border: 1px solid #888;
+  border-radius: 3px;
+  background: #e2e2e2;
+  font-size: 14px;
+  cursor: pointer;
+}
+input[type="range"] {
+  width: 80px;
+}
+input[type="color"] {
+  width: 32px;
+  height: 32px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
